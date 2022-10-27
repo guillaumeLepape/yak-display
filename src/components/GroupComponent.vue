@@ -138,6 +138,10 @@ export default {
   grid-gap: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .grid-group {display: block;}
+}
+
 .navbar-group {
   grid-column: 1;
 }
@@ -191,6 +195,11 @@ input {
   grid-column: 3 / 8;
 }
 
+@media screen and (max-width: 900px) {
+  .team-bet-1 {grid-column: 1 / 5;}
+  .input-bet-1 {grid-column: 5 / 8;}
+}
+
 .input-bet-2 {
   grid-column: 8 / 13;
 }
@@ -200,6 +209,11 @@ input {
   justify-content: center;
   align-items: center;
   grid-column: 13 / 15;
+}
+
+@media screen and (max-width: 900px) {
+  .input-bet-2 {grid-column: 8 / 11;}
+  .team-bet-2 {grid-column: 11 / 15;}
 }
 
 .div-button-group {
