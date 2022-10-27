@@ -60,6 +60,10 @@ export default {
   grid-gap: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .grid-score-board {display: block;}
+}
+
 .navbar-score-board {
   grid-column: 1;
 }
